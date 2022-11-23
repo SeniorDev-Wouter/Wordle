@@ -16,6 +16,8 @@ Ballon balling = new Ballon(50,200,20);
 
 void setup() {
   size(1600, 900);
+  
+  surface.setResizable(true);
   frameRate(1000);
   startScherm = new StartScherm(this);
   woordenlijstNL = loadStrings("woordenlijstNL.txt");
